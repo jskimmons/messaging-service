@@ -13,3 +13,9 @@ and then in another terminal, tested with:
 ```
 make test
 ```
+
+My Django test suite can be run with:
+```
+python manage.py test
+```
+while the virtual env `venv` is running.
