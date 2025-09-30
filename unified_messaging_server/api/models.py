@@ -6,10 +6,8 @@ from .constants import EMAIL, MMS, SMS
 class Conversation(models.Model):
     '''
     At this moment, a "participant" would just be an email address or phone number.
-    It would be a bit overkill to add a full `Participant` model and logic at this moment.
-    We could save that until we had the need to save more info for any `Participant` 
-    For example, if we wanted to link anyone to both a phone number and an email 
-    along with any other message account we were adding to the API
+    We could add a `Participant` model if we wanted to link any user to both a phone number and/or an email,
+    and group `Conversation` objects that way.
     '''
     participant_a = models.CharField(max_length=255)
     participant_b = models.CharField(max_length=255)
