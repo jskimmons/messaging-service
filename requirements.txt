@@ -1,0 +1,9 @@
+asgiref==3.9.2
+Django==5.2.6
+pq==1.9.1
+psycopg==3.2.10
+psycopg-binary==3.2.10
+psycopg-pool==3.2.6
+simplejson==3.20.2
+sqlparse==0.5.3
+typing_extensions==4.15.0
